@@ -15,10 +15,10 @@ from machine import I2C
 from time import sleep, sleep_ms, sleep_us
 
 # custom packages
-from . import const as Const
+import lcd_const as Const
 
 # typing not natively supported on MicroPython
-from .typing import List, Optional, Tuple, Union
+#from .typing import List, Optional, Tuple, Union
 
 
 class LCD:
